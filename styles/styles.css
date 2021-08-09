@@ -1,0 +1,19 @@
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+
+.header-title{
+    font-family: title;
+    color: #FFD700;
+    letter-spacing: 5px;
+}
+
+.card{
+    min-width: 238px;
+    object-fit: fill;
+}
+
+.card-img-top{
+    height: 177px;
+}

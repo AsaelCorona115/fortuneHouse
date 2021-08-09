@@ -1,0 +1,31 @@
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+.header-title{
+   font-family: title;
+   color: yellow;
+   letter-spacing: 5px;
+}
+
+.foodDisplay{
+    position: fixed;
+    left: 0;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(46, 49, 49, 0.9);
+    z-index: 1;
+}
+
+.foodDisplay img{
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+}
+
+.btn-close{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
